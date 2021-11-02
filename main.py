@@ -14,7 +14,6 @@ api_key = '47b40e47a85f3b314fa9575f02fe7a55'
 api_call = 'https://api.openweathermap.org/data/2.5/forecast?appid=' + api_key
 
 running = True
-i = 0
 myList = Listbox(root, yscrollcommand = scrollbar.set, width = 500, height = 200)
 
 while running:
